@@ -1,0 +1,35 @@
+/*
+ * This is a JavaScript Scratchpad.
+ *
+ * Enter some JavaScript, then Right Click or choose from the Execute Menu:
+ * 1. Run to evaluate the selected text (Ctrl+R),
+ * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
+ * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
+ */
+alert("You are hiking on a mountain at 7 pm and it's raining");
+var weapon = prompt("all of a sudden, a zombie shows up in your path.  Choose your weapon: rifle, a rock, gun.");
+var randomNumber = Math.round(Math.random() * 3);
+
+if (randomNumber === 0){
+  alert("you are dead. You loose");
+  
+}
+else if (randomNumber === 1){
+  alert("the zombie is looking for brains. You win!")
+}
+else if (randonNumber === 2){
+  alert("you kill the zombie with"+ " " + weapon + "you win!")
+}
+
+/*
+Exception: ReferenceError: randonNumber is not defined
+@Scratchpad/1:19:1
+*/
+/*
+Exception: ReferenceError: randonNumber is not defined
+@Scratchpad/1:19:1
+*/
+/*
+Exception: ReferenceError: randonNumber is not defined
+@Scratchpad/1:22:1
+*/

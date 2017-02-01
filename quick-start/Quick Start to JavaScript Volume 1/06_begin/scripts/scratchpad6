@@ -1,0 +1,38 @@
+/*
+ * This is a JavaScript Scratchpad.
+ *
+ * Enter some JavaScript, then Right Click or choose from the Execute Menu:
+ * 1. Run to evaluate the selected text (Ctrl+R),
+ * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
+ * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
+ */
+
+console.log("jflsja;sdjlsfj");
+2+2;
+/*
+4
+*/
+2+ "2";
+/*
+22
+*/
+"Hello" + "World";
+/*
+HelloWorld
+*/
+"Hello" + " " + "World";
+/*
+Hello World
+*/
+10>2;
+/*
+true
+*/
+10<2;
+/*
+false
+*/
+typeof(10<2);
+/*
+boolean
+*/
